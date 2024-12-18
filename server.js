@@ -23,7 +23,7 @@ import { corsOptions } from "./constants/config.js";
 import { socketAuthenticator } from "./middlewares/auth.js";
 import session from "express-session";
 import { Strategy as OAuth2Strategy } from "passport-google-oauth2";
-import { GoogleAuth } from "./models/GoogleAuth.js";
+import { GoogleAuth } from "./models/googleAuth.js";
 import { rateLimit } from "express-rate-limit";
 
 // const session = require("express-session");
